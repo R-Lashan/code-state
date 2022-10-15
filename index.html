@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code State - Home</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">CodeState</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./learn.html">Learn</a></li>
+            <li><a href="./html.html">Html</a></li>
+            <li><a href="./css.html">Css</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            <button class="btn1"><a href="./learn.html" class="text">Learn</a></button>
+        </div>
+        <div class="container">
+            <button class="btn3"><a href="./register.html" class="text">Register</a></button>
+        </div>
+        <div class="container">
+            <h3 class="acc-name"></h3>
+        </div>
+        <div class="container">
+            <h5 class="logout"></h5>
+        </div>
+    </section>
+    <!-- link Js -->
+    <script src="./app.js"></script>
+</body>
+</html>

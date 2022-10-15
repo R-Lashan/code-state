@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code State - Home</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./php.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">CodeState</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./learn.html">Learn</a></li>
+            <li><a href="./html.html">Html</a></li>
+            <li><a href="./css.html">Css</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <h1 class='heading'>What is PHP?</h1>
+    <p class="para">PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages. PHP scripts can only be interpreted on a server that has PHP installed. The client computers accessing the PHP scripts require a web browser only. A PHP file contains PHP tags and ends with the extension “.php”.</p>
+    <br>
+    <h1 class='heading2'>What is a Scripting Language?</h1>
+    <p class="para2">A script is a set of programming instructions that is interpreted at runtime. A scripting language is a language that interprets scripts at runtime. Scripts are usually embedded into other software environment
+    The purpose of the scripts is usually to enhance the performance or perform routine tasks for an application. Server side scripts are interpreted on the server while client side scripts are interpreted by the client application. PHP is a server side script that is interpreted on the server while JavaScript is an example of a client side script that is interpreted by the client browser. Both PHP and JavaScriptcan be embedded into HTML pages.</p>
+    <br>
+    <h1 class='heading2'>What does PHP stand for?</h1>
+    <p class="para2">PHP means – Personal Home Page, but it now stands for the recursive backronym PHP: Hypertext Preprocessor. PHP code may be embedded into HTML code, or it can be used in combination with various web template systems, web content management system and web frameworks.</p>
+    <br>
+    <h1 class='heading2'>What is a Scripting Language?</h1>
+    <p class="para2">A script is a set of programming instructions that is interpreted at runtime. A scripting language is a language that interprets scripts at runtime. Scripts are usually embedded into other software environment
+    The purpose of the scripts is usually to enhance the performance or perform routine tasks for an application. Server side scripts are interpreted on the server while client side scripts are interpreted by the client application. PHP is a server side script that is interpreted on the server while JavaScript is an example of a client side script that is interpreted by the client browser. Both PHP and JavaScriptcan be embedded into HTML pages.</p>
+    <br>
+    <h1 class='heading2'>PHP Syntax</h1>
+    <p class="para2">A PHP file can also contain tags such as HTML and client side scripts such as JavaScript.</p>
+    <ul class="para2">
+        <li>HTML is an added advantage when learning PHP Language. You can even learn PHP without knowing HTML but it’s recommended you at least know the basics of HTML</li>
+        <li>Database management systems DBMS for database powered applications</li>
+        <li>For more advanced topics such as interactive applications and web services, you will need JavaScript and XML.</li>
+    </ul>
+    <br>
+    <h1 class='heading2'>What we use PHP?</h1>
+    <p class="para2">You have obviously heard of a number of programming languages out there; you may be wondering why we would want to use PHP as our poison for the web programming. Below are some of the compelling reasons.</p>
+    <ul class="para2">
+        <li>PHP is open source and free.</li>
+        <li>Short learning curve compared to other languages such as JSP, ASP etc</li>
+        <li>Large community document</li>
+    </ul>
+    <br>
+    <h1 class='heading2'>PHP File Extensions</h1>
+    <p class="para2">File extension and Tags In order for the server to identify our PHP files and scripts, we must save the file with the “.php” extension. Older PHP file extensions include.</p>
+    <ul class="para2">
+        <li>.phtml</li>
+        <li>.php3</li>
+        <li>.php4</li>
+        <li>.php5</li>
+        <li>.phps</li>
+    </ul>
+    <br>
+    <ul class="para2">
+        <li>You can create PHP files without any html tags and that is called Pure PHP file.</li>
+        <li>The server interprets the PHP code and outputs the results as HTML code to the web browsers.</li>
+        <li>In order for the server to identify the PHP code from the HTML code, we must always enclose the PHP code in PHP tags.</li>
+        <li>A PHP tag starts with the less than symbol followed by the question mark and then the words “php”.</li>
+        <li>The PHP tags themselves are not case-sensitive, but it is strongly recommended that we use lower case letter. The code below illustrates the above point.</li>
+        <br>
+        <li>?php … ?></li>
+        <br>
+        <li>We will be referring to the PHP lines of code as statements. PHP statements end with a semi colon (;). If you only have one statement, you can omit the semi colon. If you have more than one statement, then you must end each line with a semi colon. For the sake of consistency, it is recommended that you always end your statement(s) with a semi colon. PHP scripts are executed on the server. The output is returned in form of HTML.</li>
+    </ul>
+    <br>
+    <h1 class='heading2'>PHP Hello world</h1>
+    <p class="para2">The program shown below is a basic PHP application that outputs the words “Hello World!” When viewed in a web browser.</p>
+    <br>
+    <li class="para">?php
+        echo "Hello world";
+        ?></li>
+    <br>
+    <li class="para"><b>Output:</b></li>
+    <li class="para">Hello world</li>
+    <!-- link Js -->
+    <script src="./app.js"></script>
+</body>
+</html>

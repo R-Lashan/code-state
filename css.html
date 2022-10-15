@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code State - Learn</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">CodeState</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./learn.html">Learn</a></li>
+            <li><a href="./html.html">Html</a></li>
+            <li><a href="./css.html">Css</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <h1 class='heading'>What is Css?</h1>
+    <div class='para'>
+        <li><b>CSS</b> stands for Cascading Style Sheets</li>
+        <li><b>CSS</b> describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li><b>CSS</b> saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>            
+    </div>
+    <h1 class='heading2'>Why we use Css?</h1>
+    <div class='para2'>
+        <p>CSS is used to style our web page, including designs, animations etc...</p> 
+        <br>
+        <img class="css-syntax" src="./Images/css syntax.png" alt="">         
+    </div>
+    <div class='para2'>
+        <p>Selector is the html element which u want to style</p>
+        <p>The declaration block contains one or more declarations separated by semicolons</p>
+        <p>Each declaration includes a CSS property name and a value, separated by a colon</p>
+        <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces</p>            
+    </div>
+    <h1 class='heading2'>Three ways to insert Css</h1>
+    <div class='para2'>
+        <li><b>External Css</b></li>
+        <li><b>Inline Css</b></li>
+        <li><b>Internal Css</b></li>          
+    </div>
+    <h1 class='heading2'>How to create a css file?</h1>
+    <h4 class="heading2">Step 1: Create a new folder in your desktop</h4>
+    <h4 class="para">Step 2: Open Vishual Studio Code and create a new .html file and code this, You should always link the html file and the css file by the link tag which is given below</h4>
+    <br>
+    <img class="css-desk" src="./Images/html doc.png" alt="">
+    <h4 class="para">Step 3: Open Vishual Studio Code and create a new .css file and code this:</h4>
+    <br>
+    <img class="css-desk" src="./Images/css doc.png" alt="">
+    <ul class="para2">
+        <li><b>Note: In the html page u can see h1 tag which has a value Hello World. So i linked the html with the css so it will find for the property h1 and change the color as red in the css file. In the css file theirs a value called body, it means the web pages entire body. when your refresh the page u can see the web page's background color changes</b></li>
+    </ul>
+    <li class="para2"><b>Output:</b></li>
+    <br>
+    <img class="css-desk" src="./Images/output.png" alt="">
+    <br><br>
+    <h1 class='heading2'>Videos to learn CSS</h1>
+    <br><br>
+    <div class="vids">
+        <video class="css-video" src="./Images/CODESTATE.mp4" controls></video>
+    </div>
+    <br><br>
+    <b class="text"><a class="link">More codes are coming</a></b>
+</body>
+</html>

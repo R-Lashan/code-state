@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code State - Learn</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./learn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">CodeState</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./learn.html">Learn</a></li>
+            <li><a href="./html.html">Html</a></li>
+            <li><a href="./css.html">Css</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <div class="section">
+        <h1 class='heading'>What is Computer Programming?</h1>
+        <p class="para">Computer programming is the process of performing a particular computation, usually by designing/building an executable program. programming involves tasks such as analysis, generating algorithms, profilling algorithms' accuracy and resource consumption, and the implementation of algorithms. There two main stages in programming <b>Front-End</b> and <b>Back-End</b>.</p>
+
+        <h1 class='heading2'>What is Front-End?</h1>
+        <p class="para2">Everything you see on a website is built with front end development(sometimes also called "front end web development"). People behind it have a name called front end developers. A front end web developer is a software engineer who implements web designs through coding languages like <b>Html</b>, <b>Css</b> and <b>JavaScript</b>.</p>
+
+        <h3 class='heading3'>Basic Front-End Languages</h1>
+        <ul class="lang-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h1 class='heading4'>What is Back-End?</h1>
+        <p class="para4">The back-end, also called the <b>server side</b>, consists of the server which provides data on request, the application which channels it, and the database which oraganizes the information. For example, when a customer browses shoes on a website, they are interacting with the front end.</p>
+
+        <h3 class='heading3'>Top 7 Programming Languages for Backend Web Development</h1>
+        <ul class="lang-list">
+            <li>Node JS</li>
+            <br>
+            <li>Python</li>
+            <br>
+            <li>PHP</li>
+            <br>
+            <li>Java</li>
+            <br>
+            <li>Ruby</li>
+            <br>
+            <li>Golang</li>
+            <br>
+            <li>C#</li>
+            <br>
+        </ul>
+    </div>
+    <div class="section">
+        <h1 class='heading4'>What is Database?</h1>
+        <p class="para4">In computing, a database is an organized collection of data stored and accessed electronically. Small databases can be stored on a file system, while large databases are hosted on computer clusters or cloud storage. The design of databases spans formal techniques and practical considerations, including data modeling, efficient data representation and storage, query languages, security and privacy of sensitive data, and distributed computing issues, including supporting concurrent access and fault tolerance.</p>
+        <br>
+        <b class="text"><a href="./webDevelopment.html" class="link">More</a>
+        <span class="icon">
+             <svg class="arr-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+        </span>
+        </b>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code State - Home</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./html.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">CodeState</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./learn.html">Learn</a></li>
+            <li><a href="./html.html">Html</a></li>
+            <li><a href="./css.html">Css</a></li>
+            <li><a href="./javascript.html">JavaScript</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <h1 class='heading'>What is HTML?</h1>
+    <div class="para">
+        <li><b>HTML</b> stands for Hyper Text Markup Language</li>
+        <li><b>HTML</b> is the standard markup language for creating Web pages</li>
+        <li><b>HTML</b> describes the structure of a Web page</li>
+        <li><b>HTML</b> consists of a series of elements</li>
+        <li><b>HTML</b> elements tell the browser how to display the content</li>
+        <li><b>HTML</b> elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+    </div>
+    <img class="html-doc" src="./Images/Simple html doc.png" alt="">
+    
+    <h1 class="heading2">Few tabs used in HTML to create a website</h1>
+    <h4 class="heading2">An HTML element is defined by a start tag, some content, and an end tag</h4>
+    <div class="para2" id="tags">
+        <img class="html-tag" src="./Images/tags.png" alt="">
+    </div>
+    <br>
+    <h1 class='heading2'>Videos to learn HTML</h1>
+    <br><br>
+    <div class="vids">
+        <video class="html-video" src="./Images/Html intro.mp4" controls></video>
+        <video class="html-video" src="./Images/TO CODESTATE.mp4" controls></video>
+        <video class="html-video" src="./Images/to codestate (1).mp4" controls></video>
+    </div>
+</body>
+</html>
