@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
 
 *{
-    padding: 0;
+    padding: 0px;
     margin: 0;
     text-decoration: none;
     list-style: none;
@@ -143,5 +143,6 @@ li{
 .html-video{
     width: 450px;
     margin-left: 20px;
+    padding: 20px;
 }
 
